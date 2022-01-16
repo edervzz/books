@@ -1,0 +1,15 @@
+# top-most EditorConfig file
+root = true
+
+# Don't use tabs for indentation.
+[*]
+charset = utf-8
+indent_style = space
+
+# Code files
+[*.{js,ts}]
+indent_size = 2
+
+# Configuration files
+[*.{yml,json}]
+indent_size = 2

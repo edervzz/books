@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  api:
+    container_name: api-books
+    restart: always
+    build: .
+    ports:
+      - "3000:3000"
