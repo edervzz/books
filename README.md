@@ -1,7 +1,7 @@
 # Books API by Oscar Eder Velázquez Pineda
 
 REST Service to serve information about book wishlist and using API Google Book. 
-This project requires __docker-compose__ to launch api and database (mongo).
+This project requires __docker-compose__ to launch api and database (sqlite).
 
 - **Post Methods**
     - `/signup`: To registry a new user.
